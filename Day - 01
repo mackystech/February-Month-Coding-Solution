@@ -1,0 +1,61 @@
+Here I'm sharing solution of daily coding problem day 01.
+
+Macky's Tech Coding Problem Day- 01.
+
+Problem: https://www.instagram.com/p/C283fOoBQV4/?utm_source=ig_web_copy_link
+
+Note: Like and Give your question feedback in comment.
+
+Note : You can solve problem using Java, Python, C, C++(write with syntax).
+
+Solution Send on Email: mackystech@gmail.com
+
+Note: Don't forget to Share with your friends.
+
+Best of Luck.
+
+Thank You!
+-------------------------------------------------------------------------------------------------------------
+
+Problem: Write a program that can multiply 2 numbers provided by the user without using the * operator.
+
+Solution: 
+
+#include <iostream>
+using namespace std;
+
+int multiply(int a, int b) {
+    int result = 0;
+
+    for (int i = 0; i < b; ++i) {
+        result = result + a;
+    }
+
+    return result;
+}
+
+int main() {
+    int n1, n2;
+
+    cout << "Enter first value: ";
+    cin >> n1;
+    
+    cout << "Enter second value: ";
+    cin >> n2;
+
+    int product = multiply(n1, n2);
+
+    cout << "Product: " << product << endl;
+
+    return 0;
+}
+
+Input: 
+  Enter first value: 9
+  Enter second value: 6
+
+Output: 
+  Product: 54
+
+If any query regarding solution DM me : +91-82359 10315 (WhatsApp)
+Thank You!
