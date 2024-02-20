@@ -1,0 +1,33 @@
+Question: Write a program to declare and initialize variables of different data types (integer, floating-point, string) in your chosen programming language.
+
+Solution: 
+
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+   int intVar = 10;
+   
+   float floatVar = 10.02;
+   
+   string strVar = "Macky's Tech!";
+   
+   cout<<"integer value: "<<intVar<<endl;
+   cout<<"float value: "<<floatVar<<endl;
+   cout<<"string value: "<<strVar<<endl;
+
+    return 0;
+}
+
+
+Output:
+
+integer value: 10
+float value: 10.02
+string value: Macky's Tech!
+
+
+Thank You!
+
