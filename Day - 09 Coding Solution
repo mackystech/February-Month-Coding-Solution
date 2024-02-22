@@ -1,0 +1,33 @@
+Day - 9. Question: Create a program that takes two numbers as input and performs arithmetic operations such as addition, subtraction, multiplication, and division on them. Display the results.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 10;
+    int b = 5;
+    
+    int sum = a+b;
+    cout<<"Sum: "<<sum<<endl;
+    
+    int sub = a-b;
+    cout<<"Substraction: "<<sub<<endl;
+    
+    int mul = a*b;
+    cout<<"Multiplication: "<<mul<<endl;
+    
+    int division= a/b;
+    cout<<"Division: "<<division<<endl;
+    
+
+    return 0;
+}
+
+
+Output:
+
+Sum: 15
+Substraction: 5
+Multiplication: 50
+Division: 2
