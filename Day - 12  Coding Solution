@@ -1,0 +1,38 @@
+Day 12: Create a program that takes a string input from the user and performs operations like string concatenation, slicing, and length calculation. Display the results.
+
+
+Solution :  
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string inputStr = "Welcome to";
+    string concat = inputStr + " Macky's Tech!";
+    
+    int s, l;
+     s = 6;
+     l = 5;
+    
+    string slicingStr = inputStr.substr(s, l);
+    
+    int strLength = inputStr.length();
+    
+    cout<<"Original String Value: "<<inputStr<<endl;
+    cout<<"concatenation String: "<<concat<<endl;
+    cout<<"Slicing String: "<<slicingStr<<endl;
+    cout<<"Length of the String: "<<strLength<<endl;
+
+    return 0;
+}
+
+
+Output::
+
+Original String Value: Welcome to
+concatenation String: Welcome to Macky's Tech!
+Slicing String: e to
+Length of the String: 10
+
